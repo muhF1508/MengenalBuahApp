@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/tebak_gambar"
+            android:layout_width="338dp"
+            android:layout_height="139dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logou" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/apple"
+                android:layout_width="267dp"
+                android:layout_height="195dp"
+                android:layout_weight="1"
+                android:onClick="bt_apple"
+                android:src="@drawable/apele" />
+
+            <ImageView
+                android:id="@+id/watermelon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/semangka"
+                android:onClick="bt_watermelon"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/grape"
+                android:layout_width="402dp"
+                android:layout_height="195dp"
+                android:layout_weight="1"
+                android:onClick="bt_grape"
+                android:src="@drawable/nggur" />
+
+            <ImageView
+                android:id="@+id/orange"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/jeukr"
+                android:onClick="bt_orange"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
