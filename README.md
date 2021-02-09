@@ -1,5 +1,4 @@
-# MengenalBuahApp
-App
+# Tebak Gambar
 
 ![screenshot](app/src/main/res/Screenshot_1543806114.png)
 
